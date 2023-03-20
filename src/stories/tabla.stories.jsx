@@ -10,8 +10,8 @@ export default {
 
 const Template = (args) => <Tabla {...args} />;
 
-export const Columnas_Filas = Template.bind({});
-Columnas_Filas.args = {
+export const FilasYColumnas = Template.bind({});
+FilasYColumnas.args = {
   titulo: 'Tabla Personas',
   columna : ['Numero', 'Nombre Completo', 'Ci'],
   fila : [
